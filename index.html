@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="module" defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Harry Potter Quiz</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="main">
+          <h1>
+            QUIZ: How well do you actually remember all 8 Harry Potter films?
+          </h1>
+          <div class="quiz-info">
+            <img
+              src="img/start.jpg"
+              alt="Harry Potter books"
+              class="quiz-info__img"
+            />
+            <p class="quiz-info__description">
+              Were you paying attention during the Harry Potter saga? It's time
+              to put your knowledge to the test, as only a real fan can score
+              100% in this quiz...
+            </p>
+          </div>
+          <button class="quiz-info__btn" type="button">Start</button>
+          <div class="quiz-container">
+            <h3 class="question-number"></h3>
+            <img
+              src="img/0.jpg"
+              alt="Picture from Harry Potter"
+              class="quiz-container__img"
+            />
+            <h2 class="question-title"></h2>
+            <div class="quiz-container__answers"></div>
+            <p class="quiz-container__results"></p>
+            <button class="restart-btn">Try Again</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
