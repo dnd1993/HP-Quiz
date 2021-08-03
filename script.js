@@ -175,7 +175,7 @@
             ? (quizResults.textContent =
                 "That wasn't very Hogwarts of you...Anything from the trolley, dear? Yep, a well-needed weekend binge-watch please. Time to brush up on your knowledge!")
             : (quizResults.textContent =
-                "You're a wizard, Harry! Butterbeer's on you, because you're actually pretty clued up. Snape would be proud.");
+                "Hey, you're a wizard, Harry! Butterbeer's on you, because you're actually pretty clued up. Snape would be proud.");
           restartBtn.style.display = 'block';
         }
       });
